@@ -16,11 +16,6 @@ export class GraficasService {
 
   public getUsuariosPorRedesSocialesDona():Observable<any>{
     console.log("Hola mundo!!!!");
-    console.log("Hola mundo!!!!");
-    console.log("Hola mundo!!!!");
-    console.log("Hola mundo!!!!");
-    console.log("Hola mundo!!!!");
-
     return this.getTotalUsuariosPorRedesSociales()
       .pipe(
         map( (data)=>{
